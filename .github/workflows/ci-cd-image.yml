@@ -43,5 +43,11 @@ jobs:
       - name: start container
         run: docker compose up -d
 
+      - name: wait container
+        run: sleep 10
+
+      - name: view container
+        run: docker compose ps
+
       - name: check container
         run: curl localhost:8080
