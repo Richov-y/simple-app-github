@@ -1,5 +1,5 @@
 services:
   webserver:
-    image: ghcr.io/Richov-y/nginx-Richo
+    image: ghcr.io/richov-y/nginx-richo
     ports:
       - "8080:80"
