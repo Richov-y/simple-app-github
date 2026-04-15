@@ -1,7 +1,7 @@
 name: Build, Push and Deploy Docker Image
 run-name: Build, Push and Deploy Image
 on: [push]
-env:
+env:i
   IMAGE_NAME: "ghcr.io/richov-y/nginx-richo"
 jobs:
   build-push-image:
